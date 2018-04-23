@@ -1,3 +1,30 @@
+.section1 {
+  background-image : url("images/header-photo.jpg");
+  background-size: 100%;
+}
+
+.bg-pink-triangle {
+  background-image : url("images/decorationBox.png");
+  background-size: 100%;
+}
+
+.section3 {
+  background-image : url("images/section3-photoBackground.jpg");
+  background-size: 100%;
+}
+
+.section5 {
+  background-image : url("images/section5-background.jpg");
+  background-size: 100%;
+}
+
+.section6 {
+  background-image : url("images/section6-browser.png");
+  background-size: 100%;
+}
+
+
+
 .App {
   text-align: center;
 }
