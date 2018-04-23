@@ -2,6 +2,7 @@ import React, { Component, } from 'react';
 import './App.css';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
+import Founder from './components/Founder.js';
 import browserImg from './images/section6-browser.png';
 // import imgMap from './helpers/imageMapper.js'
 import logo1 from './images/section5-logo1.png';
@@ -9,6 +10,7 @@ import logo2 from './images/section5-logo2.png';
 import logo3 from './images/section5-logo3.png';
 import logo4 from './images/section5-logo4.png';
 import logo5 from './images/section5-logo5.png';
+import founders from './data/founders.js';
 
 class App extends Component {
   render() {
@@ -19,17 +21,6 @@ class App extends Component {
 
         <section className="section1">
           There is no other platform by eck as like <br />
-          There is no other platform by eck as like  <br />
-          There is no other platform by eck as like <br />
-          There is no other platform by eck as like  <br />
-          There is no other platform by eck as like <br />
-          There is no other platform by eck as like  <br />
-          There is no other platform by eck }as like <br />
-          There is no other platform by eck as like  <br />
-          There is no other platform by eck as like <br />
-          There is no other platform by eck as like  <br />
-          There is no other platform by eck as like <br />
-          There is no other platform by eck as like  <br />
         </section>
 
         <section className="bg-pink-triangle">
@@ -37,8 +28,8 @@ class App extends Component {
             content= {<div>There is no other platforms for you as like</div>}
           />
           <p>
-            Lorem Ipsum <br />
-            X2
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+          <br /> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.
           </p>
         </section>
 
@@ -54,19 +45,23 @@ class App extends Component {
           content= {<div>Responsive design, just need your tap</div>}
           />
           <p>
-            Lorem Ipsum X1
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
           </p>
         </section>
 
         <section className="section5">
-        5555555555555555555555555555
           <SingleLineGrid content= {
              <div>
-               <img src={logo1} alt="logo1" className="logo" />
-               <img src={logo2} alt="logo2" className="logo" />
-               <img src={logo3} alt="logo3" className="logo" />
-               <img src={logo4} alt="logo4" className="logo" />
-               <img src={logo5} alt="logo5" className="logo" />
+              {founders.map ( (founderObj, idx) =>
+                <Founder founder={founderObj} key={idx} />
+              )}
+             </div>
+           } />
+          <SingleLineGrid content= {
+             <div>
+               {[logo1,logo2,logo3,logo4,logo5].map ( (logo, idx) =>
+                 <img src={logo} alt={'logo+idx'} className="logo" />
+               )}
                {
                  // imgMap('images/section5-logo',[1,2,3,4,5]).map (logoFile =>
                  //   <img src={logoFile} className="logo" />)
@@ -81,10 +76,10 @@ class App extends Component {
               content= {<div>Some awesome features</div>}
             />
             <p>
-              Lorem Ipsum X1
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
             </p>
           </div>
-          <img src={browserImg} className="image" />
+          <img src={browserImg} alt="browser pic" className="image" />
         </section>
 
 
