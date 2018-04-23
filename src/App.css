@@ -29,6 +29,19 @@ body {
   color: #A6A6A9;
 }
 
+.single-line-grid {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  flex-direction:row;
+  color : blue;
+}
+
+.flex-item {
+  display: inline-flex;
+  justify-content : space-around;
+
+}
+
 .image {
     max-width: 100%;
     height: auto;

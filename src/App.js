@@ -2,16 +2,12 @@ import React, { Component, } from 'react';
 import './App.css';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
-import RowItem from './components/RowItem.js';
+// import RowItem from './components/RowItem.js';
 import browserImg from './images/section6-browser.png';
 // import imgMap from './helpers/imageMapper.js'
-import logo1 from './images/section5-logo1.png';
-import logo2 from './images/section5-logo2.png';
-import logo3 from './images/section5-logo3.png';
-import logo4 from './images/section5-logo4.png';
-import logo5 from './images/section5-logo5.png';
 import founders from './data/founders.js';
 import features from './data/features.js';
+import logos from './data/logos.js';
 
 class App extends Component {
   render() {
@@ -38,13 +34,7 @@ class App extends Component {
           <H2Like style={{align:'center', pinkBefore:'NEW FEATURES'}}
             content= {<div>Some aw....esome features</div>}
           />
-          <SingleLineGrid content= {
-             <div>
-              {features.map ( (featureObj, idx) =>
-                <RowItem data={featureObj} key={idx} />
-              )}
-             </div>
-           }
+          <SingleLineGrid data = {features}
 
           />
         </section>
@@ -59,24 +49,7 @@ class App extends Component {
         </section>
 
         <section className="section5">
-          <SingleLineGrid content= {
-             <div>
-              {founders.map ( (founderObj, idx) =>
-                <RowItem data={founderObj} key={idx} />
-              )}
-             </div>
-           } />
-          <SingleLineGrid content= {
-             <div>
-               {[logo1,logo2,logo3,logo4,logo5].map ( (logo, idx) =>
-                 <img src={logo} alt={'logo+idx'} className="logo" />
-               )}
-               {
-                 // imgMap('images/section5-logo',[1,2,3,4,5]).map (logoFile =>
-                 //   <img src={logoFile} className="logo" />)
-               }
-             </div>
-           } />
+          <SingleLineGrid data= {logos} />
         </section>
 
         <section className="section6">
