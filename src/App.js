@@ -36,9 +36,17 @@ class App extends Component {
 
         <section className="section3">
           <H2Like style={{align:'center', pinkBefore:'NEW FEATURES'}}
-            content= {<div>Some awesome features</div>}
+            content= {<div>Some aw....esome features</div>}
           />
-          <SingleLineGrid />
+          <SingleLineGrid content= {
+             <div>
+              {features.map ( (featureObj, idx) =>
+                <RowItem data={featureObj} key={idx} />
+              )}
+             </div>
+           }
+
+          />
         </section>
 
         <section className="bg-pink-triangle">
