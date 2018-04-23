@@ -3,7 +3,8 @@ import React, { Component, } from 'react';
 class H2Like extends Component {
   render() {
     return (
-      null)
+      <div>{this.props.content}</div>
+    )
   }
 }
 

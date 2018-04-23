@@ -2,8 +2,9 @@ import React, { Component, } from 'react';
 
 class SingleLineGrid extends Component {
   render() {
-    return (
-      null)
+    return  (
+      <div>{this.props.content}</div>
+    )
   }
 }
 
