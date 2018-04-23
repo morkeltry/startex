@@ -2,7 +2,7 @@ import React, { Component, } from 'react';
 import './App.css';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
-import Founder from './components/Founder.js';
+import RowItem from './components/RowItem.js';
 import browserImg from './images/section6-browser.png';
 // import imgMap from './helpers/imageMapper.js'
 import logo1 from './images/section5-logo1.png';
@@ -11,6 +11,7 @@ import logo3 from './images/section5-logo3.png';
 import logo4 from './images/section5-logo4.png';
 import logo5 from './images/section5-logo5.png';
 import founders from './data/founders.js';
+import features from './data/features.js';
 
 class App extends Component {
   render() {
@@ -53,7 +54,7 @@ class App extends Component {
           <SingleLineGrid content= {
              <div>
               {founders.map ( (founderObj, idx) =>
-                <Founder founder={founderObj} key={idx} />
+                <RowItem data={founderObj} key={idx} />
               )}
              </div>
            } />
