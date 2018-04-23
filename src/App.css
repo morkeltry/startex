@@ -1,3 +1,7 @@
+body {
+  color : #727272;
+}
+
 .section1 {
   background-image : url("images/header-photo.jpg");
   background-size: 100%;
@@ -19,11 +23,21 @@
 }
 
 .section6 {
-  background-image : url("images/section6-browser.png");
-  background-size: 100%;
+  background-color: #F6F5F3;
+  color: #A6A6A9;
 }
 
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+}
 
+.logo {
+  color: #A6A6A9;
+
+}
 
 .App {
   text-align: center;
