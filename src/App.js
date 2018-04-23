@@ -2,7 +2,6 @@ import React, { Component, } from 'react';
 import './App.css';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
-// import RowItem from './components/RowItem.js';
 import browserImg from './images/section6-browser.png';
 // import imgMap from './helpers/imageMapper.js'
 import founders from './data/founders.js';
