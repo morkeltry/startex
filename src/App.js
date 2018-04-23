@@ -49,6 +49,7 @@ class App extends Component {
         </section>
 
         <section className="section5">
+          <SingleLineGrid data= {founders} />
           <SingleLineGrid data= {logos} />
         </section>
 
