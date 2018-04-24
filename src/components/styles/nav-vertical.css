@@ -1,0 +1,33 @@
+nav {
+  display : inline;
+  width: 25%;
+  color : pink;
+  border : 1px solid black;
+}
+
+.flex-container {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  flex-direction:row;
+  color : green;
+}
+
+.flex-item-no-inline {
+  justify-content : space-around;
+
+}
+
+ ul {
+  display : block;
+  border : 1px solid blue;
+  width : 20vh;
+}
+
+ li {
+  display : block;
+}
+
+ a {
+  display : block;
+  color : red
+}

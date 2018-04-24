@@ -2,11 +2,14 @@ import React, { Component, } from 'react';
 import './App.css';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
+import NavVertical from './components/NavVertical.js';
+import SignupNewsletter from './components/SignupNewsletter.js';
 import browserImg from './images/section6-browser.png';
 // import imgMap from './helpers/imageMapper.js'
 import founders from './data/founders.js';
 import features from './data/features.js';
 import logos from './data/logos.js';
+import links from  './data/links.js';
 
 class App extends Component {
   render() {
@@ -65,6 +68,17 @@ class App extends Component {
         </section>
 
 
+        <footer className="bg-pink-triangle">
+          <div className="flex-container">
+            <address className="flex-item-no-inline">
+              some <br /> stuff
+            </address>
+            <NavVertical id="support" items={links['support']} />
+            <NavVertical id="about-us" items={links['aboutUs']} />
+            <SignupNewsletter />
+            <span style= {{width : '20vw'}}/>
+          </div>
+        </footer>
 
       </div>
     );
