@@ -6,8 +6,42 @@ body {
 .section1 {
   background-image : url("images/header-photo.jpg");
   background-size: 100%;
-  height : 25em;
 }
+
+.section1 h1 {
+  font-weight : 100;
+  font-size : 5vw;
+}
+
+
+.section1 form {
+  display : block;
+}
+
+
+.pink-button {
+  font-family: 'Play', sans-serif;
+  background-color : #FF6D6D;
+  color : white;font-weight : 100;
+  font-size : 1.75vw;
+  border : none;
+  width : 16vw;
+  height: 4vw;
+  bottom : 0px;
+  padding : 0.75vw 1vw;
+  margin-left :auto;
+  margin-right : auto;
+  margin-top : 2vw;
+}
+
+.goArrow {
+  display : block;
+  width : 10%;
+  margin-left :auto;
+  margin-right : auto;
+  margin-bottom : 2vw;
+}
+
 
 .bg-pink-triangle {
   background-image : url("images/decorationBox.png");

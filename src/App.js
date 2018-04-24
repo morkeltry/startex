@@ -5,6 +5,7 @@ import SingleLineGrid from './components/SingleLineGrid.js';
 import NavVertical from './components/NavVertical.js';
 import SignupNewsletter from './components/SignupNewsletter.js';
 import browserImg from './images/section6-browser.png';
+import goArrow from './images/header-icon-play.png';
 // import imgMap from './helpers/imageMapper.js'
 import founders from './data/founders.js';
 import features from './data/features.js';
@@ -18,8 +19,19 @@ class App extends Component {
         <header>
         </header>
 
-        <section className="section1">
-          There is no other platform by eck as like <br />
+        <section style={{padding : '20vw'}} className="section1">
+          <div style={{}}>
+            <h1>
+              There is no other platform for you as like
+            </h1>
+            <img />
+            <form>
+              <input type="image" src={goArrow} className="goArrow" alt="Go on" />
+              <input type="submit" value="TRY NOW" className="pink-button" alt="Try now" />
+            </form>
+
+
+          </div>
         </section>
 
         <section className="bg-pink-triangle">
