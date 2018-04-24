@@ -9,6 +9,7 @@ import browserImg from './images/section6-browser.png';
 import founders from './data/founders.js';
 import features from './data/features.js';
 import logos from './data/logos.js';
+import links from  './data/links.js';
 
 class App extends Component {
   render() {
@@ -68,11 +69,11 @@ class App extends Component {
 
 
         <footer className="bg-pink-triangle">
-          <div>>
+          <div style={{display : 'inline'}}>
             <address>
             </address>
-            <NavVertical title="" links={[{'aaaaaa':'bbbbb'},{'ccccc':'ddddddd'},{'eeeeee':'fffff'},]} />
-            <NavVertical title="" links={[{'aaaaaa':'bbbbb'},{'ccccc':'ddddddd'},{'eeeeee':'fffff'},]} />
+            <NavVertical id="support" items={links['support']} />
+            <NavVertical id="about-us" items={links['aboutUs']} />
             <SignupNewsletter />
           </div>
         </footer>

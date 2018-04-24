@@ -1,0 +1,15 @@
+nav {
+  display : inline;
+  width: 25%;
+  color : pink;
+  border : 1px solid black;
+}
+
+nav span {
+  display : block;
+}
+
+nav a {
+  display : block;
+  color : red
+}
