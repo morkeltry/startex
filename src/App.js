@@ -69,12 +69,14 @@ class App extends Component {
 
 
         <footer className="bg-pink-triangle">
-          <div style={{display : 'inline'}}>
-            <address>
+          <div className="flex-container">
+            <address className="flex-item-no-inline">
+              some <br /> stuff
             </address>
             <NavVertical id="support" items={links['support']} />
             <NavVertical id="about-us" items={links['aboutUs']} />
             <SignupNewsletter />
+            <span style= {{width : '20vw'}}/>
           </div>
         </footer>
 

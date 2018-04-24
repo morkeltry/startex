@@ -5,22 +5,20 @@ import './styles/nav-vertical.css'
 
 class NavVertical extends Component {
   render() {
-    return  ( <nav id={this.props.id}>
-        <span>
-          {this.props.items.title}
-        </span>
-        {this.props.items.links.map (link => {
-          switch (link.type) {
-            case 'a':
-              return <a href={link.path}>
-                  {link.name}
-                </a>
-            default:
-              return <a href={link.path}>
-                  {link.name}
-                </a>
-        }})}
-      </nav>
+    return  ( <div>
+        <ul id={this.props.id} className="flex-item-no-inline">
+          <li>
+            {this.props.items.title}
+          </li>
+          {this.props.items.links.map (link => {
+            switch (link.type) {
+              case 'a':
+                return <li> <a href={link.path}>{link.name}</a> </li>
+              default:
+                return <li> <a href={link.path}>{link.name}</a> </li>
+          }})}
+        </ul>
+       </div>
     )
   }
 }
