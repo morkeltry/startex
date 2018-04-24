@@ -35,7 +35,7 @@ class App extends Component {
         </section>
 
         <section className="bg-pink-triangle">
-          <H2Like style={{align:'left', pinkBefore:'NEW FEATURES', pinkAfter:'....'}}
+          <H2Like style={{align:'left', pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
             content= {<div>There is no other platforms for you as like</div>}
           />
           <p>
