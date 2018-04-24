@@ -2,6 +2,8 @@ import React, { Component, } from 'react';
 import './App.css';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
+import NavVertical from './components/NavVertical.js';
+import SignupNewsletter from './components/SignupNewsletter.js';
 import browserImg from './images/section6-browser.png';
 // import imgMap from './helpers/imageMapper.js'
 import founders from './data/founders.js';
@@ -65,6 +67,15 @@ class App extends Component {
         </section>
 
 
+        <footer className="bg-pink-triangle">
+          <div>>
+            <address>
+            </address>
+            <NavVertical title="" links={[{'aaaaaa':'bbbbb'},{'ccccc':'ddddddd'},{'eeeeee':'fffff'},]} />
+            <NavVertical title="" links={[{'aaaaaa':'bbbbb'},{'ccccc':'ddddddd'},{'eeeeee':'fffff'},]} />
+            <SignupNewsletter />
+          </div>
+        </footer>
 
       </div>
     );
