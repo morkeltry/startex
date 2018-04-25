@@ -68,7 +68,7 @@ class App extends Component {
         </section>
 
         <section className="NOTbg-pink-triangle" style={{paddingLeft: '0'}}>
-          <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF6D6D" />
+          <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF8A8A" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
             <div>
@@ -96,7 +96,7 @@ class App extends Component {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
             </p>
           </div>
-          <img src={browserImg} alt="browser pic" className="image" />
+          <img src={browserImg} alt="browser pic" className="image" style={{width: '75%', boxShadow: '0 0 2vw  #cfcccc'}} />
         </section>
 
 
