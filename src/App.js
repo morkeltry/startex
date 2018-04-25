@@ -38,9 +38,9 @@ class App extends Component {
           </div>
         </section>
 
-        <section className="NOTbg-pink-triangle">
-          <BackgroundTriangle transform = "scale (-1, 99)" colourSecondary="#FF6D6D" />
-          <div style={{display : 'flex'}}>
+        <section className="section2-dummy-class">
+          <BackgroundTriangle transform="scale (0.8)" colourSecondary="lightblue" />
+          <div style={{display : 'flex', width: '75%'}}>
             <div>
               <H2Like style={{align:'left', pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
                 content= {<span>There is no other platforms for you as like</span>}
@@ -66,7 +66,6 @@ class App extends Component {
         </section>
 
         <section className="bg-pink-triangle" style={{paddingLeft: '0'}}>
-          <BackgroundTriangle transform="scale(1)" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
             <div>

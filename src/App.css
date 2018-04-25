@@ -6,6 +6,7 @@ body {
 
 section {
   padding : 11vw;
+  position : relative;
 
 }
 
@@ -63,6 +64,8 @@ section {
 .section3 {
   background-image : url("images/section3-photoBackground.jpg");
   background-size: 100%;
+  background-repeat: no-repeat;
+  background-color : #F6F5F3;
 }
 
 .section5 {
