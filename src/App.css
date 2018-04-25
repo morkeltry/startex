@@ -4,6 +4,11 @@ body {
   font-size : 1.5vh;
 }
 
+section {
+  padding : 11vw;
+
+}
+
 .section1 {
   background-image : url("images/header-photo.jpg");
   background-size: 100%;
@@ -47,6 +52,7 @@ body {
 .bg-pink-triangle {
   background-image : url("images/decorationBox.png");
   background-size: 100%;
+  padding : 11vw;
 }
 
 .section3 {
@@ -62,13 +68,7 @@ body {
 .section6 {
   background-color: #F6F5F3;
   color: #A6A6A9;
-}
-
-.single-line-grid {
-  display: inline-flex;
-  flex-flow: row nowrap;
-  flex-direction:row;
-  color : blue;
+  padding-bottom : 0;
 }
 
 .flex-item {
@@ -77,11 +77,20 @@ body {
 
 }
 
-.image {
+.image-non-aligned {
     max-width: 100%;
     height: auto;
     margin: auto 0;
     position : relative;
+    padding : 4vw;
+}
+
+.image-bottom {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding-bottom : 0;
 }
 
 .logo {

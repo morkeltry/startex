@@ -1,0 +1,12 @@
+.single-line-grid {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  flex-direction:row;
+  color : blue;
+  padding : 4vw;
+
+}
+
+.single-item {
+  padding : 1.5vw;
+}

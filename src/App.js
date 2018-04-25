@@ -6,6 +6,7 @@ import NavVertical from './components/NavVertical.js';
 import SignupNewsletter from './components/SignupNewsletter.js';
 import browserImg from './images/section6-browser.png';
 import goArrow from './images/header-icon-play.png';
+import macbook from './images/section4-macbook.png';
 // import imgMap from './helpers/imageMapper.js'
 import founders from './data/founders.js';
 import features from './data/features.js';
@@ -36,7 +37,7 @@ class App extends Component {
 
         <section className="bg-pink-triangle">
           <H2Like style={{align:'left', pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
-            content= {<div>There is no other platforms for you as like</div>}
+            content= {<span>There is no other platforms for you as like</span>}
           />
           <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
@@ -53,13 +54,18 @@ class App extends Component {
           />
         </section>
 
-        <section className="bg-pink-triangle">
-          <H2Like style={{align:'left', pinkBefore:'NEW FEATURES', pinkAfter:'....'}}
-          content= {<div>Responsive design, just need your tap</div>}
-          />
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
-          </p>
+        <section className="bg-pink-triangle" style={{paddingLeft: '0'}}>
+          <div style={{display : 'flex'}}>
+            <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
+            <div>
+                <H2Like style={{align:'left', pinkBefore:'NEW FEATURES', pinkAfter:'....'}}
+                content= {<span>Responsive design, just need your tap</span>}
+                />
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+              </p>
+            </div>
+          </div>
         </section>
 
         <section className="section5">
@@ -70,7 +76,7 @@ class App extends Component {
         <section className="section6">
           <div style={{padding : '5em'}}>
             <H2Like style={{align:'center', pinkBefore:'NEW FEATURES'}}
-              content= {<div>Some awesome features</div>}
+              content= {<span>Some awesome features</span>}
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
