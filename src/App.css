@@ -12,6 +12,7 @@ section {
 .section1 {
   background-image : url("images/header-photo.jpg");
   background-size: 100%;
+  padding:  11vw 20vw;
 }
 
 .section1 h1 {
@@ -48,11 +49,15 @@ section {
   margin-bottom : 2vw;
 }
 
+.bg-image-positionable {
+  position : relative;
+}
 
 .bg-pink-triangle {
   background-image : url("images/decorationBox.png");
   background-size: 100%;
   padding : 11vw;
+  overflow : none;
 }
 
 .section3 {
@@ -66,7 +71,7 @@ section {
 }
 
 .section6 {
-  background-color: #F6F5F3;
+  background-color: #F6F45F3;
   color: #A6A6A9;
   padding-bottom : 0;
 }

@@ -6,7 +6,7 @@ import './styles/social-widgets.css';
 class SocialWidgets extends Component {
   render() {
     return  ( <div className="social-widgets" >
-      <SingleLineGrid className="social-widgets" data={social} />
+      <SingleLineGrid className="social-widgets" data={social} style={{padding: 0}}/>
     </div> )
   }
 }
