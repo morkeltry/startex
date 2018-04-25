@@ -5,7 +5,6 @@ class SingleLineGrid extends Component {
   render() {
     const receivedStyle = this.props.style || {};
     const receivedClasses = this.props.class || '';
-    console.log (typeof receivedClasses, receivedClasses)
 
     return  (
       <div className={'single-line-grid ' + receivedClasses} style={{ alignItems : receivedStyle.align}}>

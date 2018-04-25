@@ -1,6 +1,7 @@
 import React, { Component, } from 'react';
 import './App.css';
 import BackgroundImage from './components/BackgroundImage.js';
+import BackgroundTriangle from './components/BackgroundTriangle.js';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
 import NavVertical from './components/NavVertical.js';
@@ -38,7 +39,7 @@ class App extends Component {
         </section>
 
         <section className="NOTbg-pink-triangle">
-          <BackgroundImage transform="scale(.4)" />
+          <BackgroundTriangle transform = "scale (-1, 99)" colourSecondary="#FF6D6D" />
           <div style={{display : 'flex'}}>
             <div>
               <H2Like style={{align:'left', pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
@@ -65,6 +66,7 @@ class App extends Component {
         </section>
 
         <section className="bg-pink-triangle" style={{paddingLeft: '0'}}>
+          <BackgroundTriangle transform="scale(1)" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
             <div>
@@ -96,7 +98,7 @@ class App extends Component {
         </section>
 
 
-        <footer className="bg-pink-triangle">
+        <section className="bg-pink-triangle">
           <div className="flex-container">
             <address className="flex-item-no-inline">
               some <br /> stuff
@@ -106,7 +108,7 @@ class App extends Component {
             <SignupNewsletter />
             <span style= {{width : '20vw'}}/>
           </div>
-        </footer>
+        </section>
 
       </div>
     );

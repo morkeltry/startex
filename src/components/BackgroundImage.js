@@ -8,9 +8,9 @@ class BackgroundImage extends React.Component {
     const style = {
       position: 'absolute',     //remember to give content pos : rel
       zIndex: -10,
-      width: '100%',
-       bottom: -50,
-       left : '0',
+      height: '250%',
+       bottom: '-100vw',
+       left : '0vw',
        overflow: "hidden",
       transform: this.props.transform
     };
