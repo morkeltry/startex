@@ -1,14 +1,17 @@
 .box-and-button-form {
   display : inline-block;
-  border-radius : 3vw;
-
+  width: 100%;
 }
+
+.round-border {
+  border-radius : 2px;
+}
+
 
 .text-input-narrow {
   height: 4vw;
   width: 16vw;
   bottom : 0px;
-  border: 1px solid #EAEAEB;;
   background-color: #F6F6F6;
 }
 

@@ -101,7 +101,7 @@ class App extends Component {
 
 
         <section className="NOTbg-pink-triangle">
-          <BackgroundTriangle transform=" translate (0.75 0.45) rotate (180 0.5 0.5) " colourPrimary="#FF6D6D" />
+          <BackgroundTriangle transform=" translate (0.75 0.45) rotate (180 0.5 0.5) " colourPrimary="#FF8A8A" />
           <div className="flex-container">
             <address className="flex-item-no-inline" style={{textAlign : 'left'}}>
               <img src={startEx} alt="startex logo" style={{width: '8vw'}} className="image-bottom" />
