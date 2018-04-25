@@ -40,7 +40,7 @@ class App extends Component {
         </section>
 
         <section className="section2-dummy-class">
-          <BackgroundTriangle transform="scale (0.8)" colourSecondary="lightblue" />
+          <BackgroundTriangle transform="scale (-1 1) translate(-2 -0.45) scale (1.5)" colourSecondary="#ECECEC" />
           <div style={{display : 'flex', width: '75%'}}>
             <div>
               <H2Like style={{align:'left', pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
@@ -66,7 +66,8 @@ class App extends Component {
           />
         </section>
 
-        <section className="bg-pink-triangle" style={{paddingLeft: '0'}}>
+        <section className="NOTbg-pink-triangle" style={{paddingLeft: '0'}}>
+          <BackgroundTriangle transform="scale (-1 1) " colourSecondary="#FB8686" colourSecondary="#ECECEC" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
             <div>
