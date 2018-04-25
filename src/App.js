@@ -106,7 +106,7 @@ class App extends Component {
             <address className="flex-item-no-inline" style={{textAlign : 'left'}}>
               <img src={startEx} alt="startex logo" style={{width: '8vw'}} className="image-bottom" />
               <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
-              <br /> USA &nbsp CAN 1-888123-4567
+              <br /> USA & CAN 1-888123-4567
               <br /> Address: 34 Brokeit Rd. NY
             </address>
             <NavVertical id="support" items={links['support']} />

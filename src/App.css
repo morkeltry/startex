@@ -2,6 +2,7 @@ body {
   color : #727272;
   font-family: 'Play', sans-serif;
   font-size : 1.5vh;
+  text-decoration: none;
 }
 
 section {
@@ -104,6 +105,10 @@ section {
 .logo {
   color: #A6A6A9;
 
+}
+
+address {
+  font-style: normal;
 }
 
 .nav-sibling-title {
