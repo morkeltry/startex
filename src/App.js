@@ -80,7 +80,7 @@ class App extends Component {
 
         <section className="section5">
           <SingleLineGrid data= {founders} />
-          <SingleLineGrid data= {logos} />
+          <SingleLineGrid data= {logos ({imageWidth :'10.5vw'})} />
         </section>
 
         <section className="section6">
