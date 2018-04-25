@@ -10,6 +10,7 @@ import pinkTriangle from './images/decorationBox.png';
 import goArrow from './images/header-icon-play.png';
 import macbook from './images/section4-macbook.png';
 import browserImg from './images/section6-browser.png';
+import startEx from './images/section7-logo.png';
 // import imgMap from './helpers/imageMapper.js'
 import founders from './data/founders.js';
 import features from './data/features.js';
@@ -102,8 +103,11 @@ class App extends Component {
         <section className="NOTbg-pink-triangle">
           <BackgroundTriangle transform=" translate (0.75 0.45) rotate (180 0.5 0.5) " colourPrimary="#FF6D6D" />
           <div className="flex-container">
-            <address className="flex-item-no-inline">
-              some <br /> stuff
+            <address className="flex-item-no-inline" style={{textAlign : 'left'}}>
+              <img src={startEx} alt="startex logo" style={{width: '8vw'}} className="image-bottom" />
+              <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
+              <br /> USA &nbsp CAN 1-888123-4567
+              <br /> Address: 34 Brokeit Rd. NY
             </address>
             <NavVertical id="support" items={links['support']} />
             <NavVertical id="about-us" items={links['aboutUs']} />

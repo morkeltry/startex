@@ -7,7 +7,7 @@ class NavVertical extends Component {
   render() {
     return  ( <div>
         <ul id={this.props.id} className="flex-item-no-inline">
-          <li>
+          <li className="nav-title">
             {this.props.items.title}
           </li>
           {this.props.items.links.map (link => {
