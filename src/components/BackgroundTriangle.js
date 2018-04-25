@@ -9,7 +9,7 @@ console.log('PROPS:',this.props);
 console.log('PROPS.T:',this.props.transform);
     const style= {
       position: 'absolute',     //remember to give content pos : rel
-      zIndex: 10,
+      zIndex: -10,
       width: '100%',
       // top: '0px',
       bottom: '0px',

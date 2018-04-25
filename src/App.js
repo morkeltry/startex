@@ -67,7 +67,7 @@ class App extends Component {
         </section>
 
         <section className="NOTbg-pink-triangle" style={{paddingLeft: '0'}}>
-          <BackgroundTriangle transform="scale (-1 1) " colourSecondary="#FB8686" colourSecondary="#ECECEC" />
+          <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF6D6D" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
             <div>
@@ -99,7 +99,8 @@ class App extends Component {
         </section>
 
 
-        <section className="bg-pink-triangle">
+        <section className="NOTbg-pink-triangle">
+          <BackgroundTriangle transform=" translate (0.75 0.45) rotate (180 0.5 0.5) " colourPrimary="#FF6D6D" />
           <div className="flex-container">
             <address className="flex-item-no-inline">
               some <br /> stuff
