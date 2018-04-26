@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 body {
   color : #727272;
   background-color : white;
@@ -29,7 +33,7 @@ section {
 }
 
 
-.pink-button {
+.pink-text-button {
   font-family: 'Play', sans-serif;
   background-color : #FF6D6D;
   color : white;font-weight : 100;
@@ -52,22 +56,9 @@ section {
   margin-bottom : 2vw;
 }
 
-.bg-image-positionable {/*
-.bg-pink-triangle {
-  background-image : url("images/decorationBox.png");
-  background-size: 100%;
-  padding : 11vw;
-  overflow : none;
-} */
+.bg-image-positionable {
   position : relative;
 }
-/*
-.bg-pink-triangle {
-  background-image : url("images/decorationBox.png");
-  background-size: 100%;
-  padding : 11vw;
-  overflow : none;
-} */
 
 .section3 {
   background-image : url("images/section3-photoBackground.jpg");
@@ -127,23 +118,4 @@ address {
   padding-bottom : 1vh;
   margin : 0;
 
-}
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
 }

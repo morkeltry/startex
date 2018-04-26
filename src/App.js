@@ -33,7 +33,7 @@ class App extends Component {
             <img />
             <form>
               <input type="image" src={goArrow} className="goArrow" alt="Go on" />
-              <input type="submit" value="TRY NOW" className="pink-button" alt="Try now" />
+              <input type="submit" value="TRY NOW" className="pink-text-button" alt="Try now" />
             </form>
 
 
