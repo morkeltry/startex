@@ -1,3 +1,7 @@
+.App {
+  text-align: center;
+}
+
 body {
   color : #727272;
   background-color : white;
@@ -12,6 +16,32 @@ section {
 
 }
 
+.flex-item {
+  display: inline-flex;
+  justify-content : space-around;
+
+}
+
+.bg-image-positionable {
+  position : relative;
+}
+
+.image-non-aligned {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding : 4vw;
+}
+
+.image-bottom {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding-bottom : 0;
+}
+
 .section1 {
   background-image : url("images/header-photo.jpg");
   background-size: 100%;
@@ -23,13 +53,11 @@ section {
   font-size : 5vw;
 }
 
-
 .section1 form {
   display : block;
 }
 
-
-.pink-button {
+.pink-text-button {
   font-family: 'Play', sans-serif;
   background-color : #FF6D6D;
   color : white;font-weight : 100;
@@ -51,22 +79,8 @@ section {
   margin-right : auto;
   margin-bottom : 2vw;
 }
-
-.bg-image-positionable {/*
-.bg-pink-triangle {
-  background-image : url("images/decorationBox.png");
-  background-size: 100%;
-  padding : 11vw;
-  overflow : none;
-} */
-  position : relative;
-}
 /*
-.bg-pink-triangle {
-  background-image : url("images/decorationBox.png");
-  background-size: 100%;
-  padding : 11vw;
-  overflow : none;
+.section2-dummy-class {
 } */
 
 .section3 {
@@ -75,10 +89,17 @@ section {
   background-repeat: no-repeat;
   background-color : #F6F5F3;
 }
+/*
+.section4-dummy-class {
+} */
 
 .section5 {
   background-image : url("images/section5-background.jpg");
   background-size: 100%;
+}
+
+.logo {
+  color: #A6A6A9;
 }
 
 .section6 {
@@ -87,32 +108,11 @@ section {
   padding-bottom : 0;
 }
 
-.flex-item {
-  display: inline-flex;
-  justify-content : space-around;
+/* .section7-dummy-class {
+} */
 
-}
-
-.image-non-aligned {
-    max-width: 100%;
-    height: auto;
-    margin: auto 0;
-    position : relative;
-    padding : 4vw;
-}
-
-.image-bottom {
-    max-width: 100%;
-    height: auto;
-    margin: auto 0;
-    position : relative;
-    padding-bottom : 0;
-}
-
-.logo {
-  color: #A6A6A9;
-
-}
+/* .section8-dummy-class {
+} */
 
 address {
   font-style: normal;
@@ -126,24 +126,4 @@ address {
   padding-top : 1vh;
   padding-bottom : 1vh;
   margin : 0;
-
-}
-
-.App {
-  text-align: center;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
 }

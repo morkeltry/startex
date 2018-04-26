@@ -6,24 +6,25 @@ class SingleLineGrid extends Component {
     const receivedItemStyle = this.props.style || {};
     const receivedTextColours = this.props.textColours || {};
     const receivedTextStyle = this.props.textStyle || {};
-    console.log('GOT:',(receivedTextStyle  || ''));
     const receivedClasses = this.props.class || '';
 
     return  (
       <div className={'single-line-grid ' + receivedClasses} style={{ alignItems : receivedItemStyle.align}}>
-        {this.props.data.map (element => { return <span className="single-item"  style={{padding : receivedItemStyle.padding, alignSelf : receivedItemStyle.align}}>
-          {element.image || null}
-          <p className="item-title" style={{color : receivedTextColours.titleColour || '' }}>
-            {element.title || null}
-          </p>
-          <p className="item-subtitle" style={{color: receivedTextColours.subtitleColour || '' } }>
-            {element.subtitle || null}
-          </p>
-          <p className="item-text" style={{color: receivedTextColours.textColour || '', fontStyle : receivedTextStyle || ''}}>
-            {element.text || null}
-          </p>
-        </span>
-      })}
+        {this.props.data.map (element => {
+            return <span className="single-item"
+                style={{padding : receivedItemStyle.padding, alignSelf : receivedItemStyle.align}}>
+              {element.image || null}
+              <p className="item-title" style={{color : receivedTextColours.titleColour || '' }}>
+                {element.title || null}
+              </p>
+              <p className="item-subtitle" style={{color: receivedTextColours.subtitleColour || '' } }>
+                {element.subtitle || null}
+              </p>
+              <p className="item-text" style={{color: receivedTextColours.textColour || '', fontStyle : receivedTextStyle || ''}}>
+                {element.text || null}
+              </p>
+            </span>
+        })}
       </div>
     )
   }

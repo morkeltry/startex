@@ -1,17 +1,18 @@
 import React, { Component, } from 'react';
 import './App.css';
-import BackgroundImage from './components/BackgroundImage.js';
+
 import BackgroundTriangle from './components/BackgroundTriangle.js';
 import H2Like from './components/H2Like.js';
 import SingleLineGrid from './components/SingleLineGrid.js';
 import NavVertical from './components/NavVertical.js';
 import SignupNewsletter from './components/SignupNewsletter.js';
+
 import pinkTriangle from './images/decorationBox.png';
 import goArrow from './images/header-icon-play.png';
 import macbook from './images/section4-macbook.png';
 import browserImg from './images/section6-browser.png';
 import startEx from './images/section7-logo.png';
-// import imgMap from './helpers/imageMapper.js'
+
 import founders from './data/founders.js';
 import features from './data/features.js';
 import logos from './data/logos.js';
@@ -32,7 +33,7 @@ class App extends Component {
             <img />
             <form>
               <input type="image" src={goArrow} className="goArrow" alt="Go on" />
-              <input type="submit" value="TRY NOW" className="pink-button" alt="Try now" />
+              <input type="submit" value="TRY NOW" className="pink-text-button" alt="Try now" />
             </form>
 
 
@@ -72,7 +73,7 @@ class App extends Component {
           />
         </section>
 
-        <section className="NOTbg-pink-triangle" style={{paddingLeft: '0'}}>
+        <section style={{paddingLeft: '0'}}>
           <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF8A8A" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
@@ -91,7 +92,7 @@ class App extends Component {
           <SingleLineGrid data= {founders}
             textStyle= 'italic'
             textColours= {{
-              subtitleColour : 'red',
+              subtitleColour : '#FF8A8A',
               textColour :'#A9A9A7'
             }} />
           <SingleLineGrid data= {logos ({imageWidth :'10.5vw'})} />
@@ -110,7 +111,7 @@ class App extends Component {
         </section>
 
 
-        <section className="NOTbg-pink-triangle">
+        <section >
           <BackgroundTriangle transform=" translate (0.75 0.45) rotate (180 0.5 0.5) " colourPrimary="#FF8A8A" />
           <div className="flex-container">
             <address className="flex-item-no-inline" style={{textAlign : 'left'}}>
