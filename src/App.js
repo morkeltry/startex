@@ -41,15 +41,15 @@ class App extends Component {
         </section>
 
         <section className="section2-dummy-class">
-          <BackgroundTriangle transform="scale (-1 1) translate(-2 -0.45) scale (1.5)" colourSecondary="#ECECEC" />
-          <div style={{display : 'flex', width: '75%'}}>
-            <div>
-              <H2Like style={{align:'left', pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
+          <BackgroundTriangle transform=" translate(2.25 -0.5) scale (-1 1) scale (1.5)" colourPrimary="#FB8686" colourSecondary="#ECECEC" />
+          <div style={{display : 'flex', width: '65%'}}>
+            <div style={{textAlign:'left'}}>
+              <H2Like style={{pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
                 content= {<span>There is no other platforms for you as like</span>}
               />
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
-                <br /> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
+                <br /> <br /> Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
               </p>
             </div>
             <img NOTsrc={pinkTriangle} alt="" style={{height:'100%', left: '60%', overflow: 'none'}} className="iTFHmage-non-aligned" />
@@ -63,6 +63,11 @@ class App extends Component {
             content= {<div>Some aw....esome features</div>}
           />
           <SingleLineGrid data = {features}
+            textStyle= 'normal'
+            textColours= {{
+              titleColour : '#5E5D5D',
+              textColour :'#9A9A98'
+            }}
 
           />
         </section>
@@ -71,8 +76,8 @@ class App extends Component {
           <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF8A8A" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
-            <div>
-                <H2Like style={{align:'left', pinkBefore:'NEW FEATURES', pinkAfter:'....'}}
+            <div style={{textAlign:'left'}}>
+                <H2Like style={{pinkBefore:'NEW FEATURES', pinkAfter:'....'}}
                 content= {<span>Responsive design, just need your tap</span>}
                 />
                 <p>
@@ -83,7 +88,12 @@ class App extends Component {
         </section>
 
         <section className="section5">
-          <SingleLineGrid data= {founders} />
+          <SingleLineGrid data= {founders}
+            textStyle= 'italic'
+            textColours= {{
+              subtitleColour : 'red',
+              textColour :'#A9A9A7'
+            }} />
           <SingleLineGrid data= {logos ({imageWidth :'10.5vw'})} />
         </section>
 

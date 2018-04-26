@@ -1,5 +1,6 @@
 body {
   color : #727272;
+  background-color : white;
   font-family: 'Play', sans-serif;
   font-size : 1.5vh;
   text-decoration: none;
@@ -51,16 +52,22 @@ section {
   margin-bottom : 2vw;
 }
 
-.bg-image-positionable {
-  position : relative;
-}
-
+.bg-image-positionable {/*
 .bg-pink-triangle {
   background-image : url("images/decorationBox.png");
   background-size: 100%;
   padding : 11vw;
   overflow : none;
+} */
+  position : relative;
 }
+/*
+.bg-pink-triangle {
+  background-image : url("images/decorationBox.png");
+  background-size: 100%;
+  padding : 11vw;
+  overflow : none;
+} */
 
 .section3 {
   background-image : url("images/section3-photoBackground.jpg");
@@ -114,7 +121,7 @@ address {
 .nav-sibling-title {
   font-size : 1.8vh;
   font-weight : 600;
-  text-align : left;  
+  text-align : left;
   color : #616161;
   padding-top : 1vh;
   padding-bottom : 1vh;

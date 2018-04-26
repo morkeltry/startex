@@ -10,7 +10,7 @@ class BoxAndButtonEmail extends Component {
     return  (<form className="box-and-button-form">
               <div className="flex-container">
               <input type="email" className="text-input-narrow round-border" placeholder="EMAIL" />
-              <input type="image" src={buttonIcon} className="submit-image-paper-plane round-border" alt="Submit Form" />
+              <input type="image" src={buttonIcon} className="submit-image-paper-plane round-border" alt="newsletter subscribe" />
               </div>
               <SocialWidgets />
             </form>
