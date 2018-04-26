@@ -11,16 +11,15 @@ class NavVertical extends Component {
             {this.props.items.title}
           </li>
           {this.props.items.links.map (link => {
-            switch (link.type) {
-              case 'a':
-                return <li> <a href={link.path}>{link.name}</a> </li>
-              default:
-                return <li> <a href={link.path}>{link.name}</a> </li>
+              switch (link.type) {
+                case 'a':
+                  return <li> <a href={link.path}>{link.name}</a> </li>
+                default:
+                  return <li> <a href={link.path}>{link.name}</a> </li>
           }})}
         </ul>
-       </div>
-    )
-  }
+      </div>
+  )};
 }
 
 export default NavVertical;

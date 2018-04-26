@@ -16,6 +16,32 @@ section {
 
 }
 
+.flex-item {
+  display: inline-flex;
+  justify-content : space-around;
+
+}
+
+.bg-image-positionable {
+  position : relative;
+}
+
+.image-non-aligned {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding : 4vw;
+}
+
+.image-bottom {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding-bottom : 0;
+}
+
 .section1 {
   background-image : url("images/header-photo.jpg");
   background-size: 100%;
@@ -27,11 +53,9 @@ section {
   font-size : 5vw;
 }
 
-
 .section1 form {
   display : block;
 }
-
 
 .pink-text-button {
   font-family: 'Play', sans-serif;
@@ -55,10 +79,9 @@ section {
   margin-right : auto;
   margin-bottom : 2vw;
 }
-
-.bg-image-positionable {
-  position : relative;
-}
+/*
+.section2-dummy-class {
+} */
 
 .section3 {
   background-image : url("images/section3-photoBackground.jpg");
@@ -66,10 +89,17 @@ section {
   background-repeat: no-repeat;
   background-color : #F6F5F3;
 }
+/*
+.section4-dummy-class {
+} */
 
 .section5 {
   background-image : url("images/section5-background.jpg");
   background-size: 100%;
+}
+
+.logo {
+  color: #A6A6A9;
 }
 
 .section6 {
@@ -78,32 +108,11 @@ section {
   padding-bottom : 0;
 }
 
-.flex-item {
-  display: inline-flex;
-  justify-content : space-around;
+/* .section7-dummy-class {
+} */
 
-}
-
-.image-non-aligned {
-    max-width: 100%;
-    height: auto;
-    margin: auto 0;
-    position : relative;
-    padding : 4vw;
-}
-
-.image-bottom {
-    max-width: 100%;
-    height: auto;
-    margin: auto 0;
-    position : relative;
-    padding-bottom : 0;
-}
-
-.logo {
-  color: #A6A6A9;
-
-}
+/* .section8-dummy-class {
+} */
 
 address {
   font-style: normal;
@@ -117,5 +126,4 @@ address {
   padding-top : 1vh;
   padding-bottom : 1vh;
   margin : 0;
-
 }

@@ -1,8 +1,6 @@
 import React from 'react';
 import image from '../images/decorationBox.png';
 
-// const transform= 'rotate(180deg)';
-
 class BackgroundTriangle extends React.Component {
   render() {
     const style= {
