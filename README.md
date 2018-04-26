@@ -2,7 +2,7 @@
 StartEx front page mockup - Static page in React
 
 Built in React, making use of reusable components to mimic a design in a .pdf
-The sections in the .pdf had an aspect ratio of 1.6 : 1 or wider and no narrower samples were provided. I compromised between responsiveness and faithfulness to the original by making the sections reasonably responsive, but keeping the features of the original design.
+The sections in the .pdf had aspect ratios of 2.5 : 1 and above and no narrower samples were provided. I compromised between responsiveness and faithfulness to the original by making the sections reasonably responsive, but keeping the features of the original design.
 The sections remain attractive down to about 640px width and all features remain fully visible down to 480px.
 
 This exercise was in part to demonstrate the use of reusable React components, so the logic behind making some of these components was slightly unrealistic.
