@@ -3,6 +3,8 @@ import BoxAndButtonEmail from './BoxAndButtonEmail.js';
 import './styles/nav-vertical.css'
 
 
+// Ideally this section would render a <nav> to stay semantic.
+// <nav> behaves differently from <div>, though, and I didn;t have time to wrangle the CSS for it
 class NavVertical extends Component {
   render() {
     return  ( <div>

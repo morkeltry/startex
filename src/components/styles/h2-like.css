@@ -1,13 +1,9 @@
-.red {
-  color : red;
-}
-
-.h2-like-pinks {
-  color : #FF6D6D;
-}
-
 .h2-like-main-color {
   color : black;
+}
+
+.h2-like-sec-color {
+  color : #FF6D6D;
 }
 
 .h2-like-small {

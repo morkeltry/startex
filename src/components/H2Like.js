@@ -7,9 +7,9 @@ class H2Like extends Component {
 
     return (
       <div style={{textAlign : receivedStyle.align}}>
-        <div className="h2-like-pinks h2-like-small" >{receivedStyle.pinkBefore}</div>
+        <div className="h2-like-sec-color h2-like-small" >{receivedStyle.preTitle}</div>
         <span className="h2-like-main-color h2-like-big">{this.props.content} </span>
-        <span className="h2-like-pinks h2-like-big">{receivedStyle.pinkAfter} </span>
+        <span className="h2-like-sec-color h2-like-big">{receivedStyle.postTitle} </span>
       </div>
     )
   }

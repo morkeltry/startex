@@ -89,9 +89,10 @@ section {
   background-repeat: no-repeat;
   background-color : #F6F5F3;
 }
-/*
-.section4-dummy-class {
-} */
+
+.section4 {
+  padding-left : 0;
+}
 
 .section5 {
   background-image : url("images/section5-background.jpg");

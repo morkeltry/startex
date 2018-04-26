@@ -1,11 +1,5 @@
-/* nav {
-  display : inline;
-  width: 25%;
-  color : pink;
-  border : 1px solid black;
-} */
 
-.flex-container {
+.footer-flex-container {
   display: inline-flex;
   flex-flow: row nowrap;
   flex-direction:row;
