@@ -7,7 +7,6 @@
   border-radius : 2px;
 }
 
-
 .text-input-narrow {
   height: 4vw;
   width: 16vw;
@@ -17,7 +16,6 @@
 }
 
 .submit-image-paper-plane {
-  color : magenta;
   background-image: "../images/section6-browser.png";
   background-color: #FF6D6D;
   height: 4vw;

@@ -25,6 +25,7 @@ class App extends Component {
         <header>
         </header>
 
+
         <section className="section1">
           <div style={{}}>
             <h1>
@@ -35,17 +36,15 @@ class App extends Component {
               <input type="image" src={goArrow} className="goArrow" alt="Go on" />
               <input type="submit" value="TRY NOW" className="pink-text-button" alt="Try now" />
             </form>
-
-
-
           </div>
         </section>
+
 
         <section className="section2-dummy-class">
           <BackgroundTriangle transform=" translate(2.25 -0.5) scale (-1 1) scale (1.5)" colourPrimary="#FB8686" colourSecondary="#ECECEC" />
           <div style={{display : 'flex', width: '65%'}}>
             <div style={{textAlign:'left'}}>
-              <H2Like style={{pinkBefore:'NEW DESIGN', pinkAfter:'....'}}
+              <H2Like style={{preTitle:'NEW DESIGN', postTitle:'....'}}
                 content= {<span>There is no other platforms for you as like</span>}
               />
               <p>
@@ -55,13 +54,12 @@ class App extends Component {
             </div>
             <img NOTsrc={pinkTriangle} alt="" style={{height:'100%', left: '60%', overflow: 'none'}} className="iTFHmage-non-aligned" />
           </div>
-
-
         </section>
 
+
         <section className="section3">
-          <H2Like style={{align:'center', pinkBefore:'NEW FEATURES'}}
-            content= {<div>Some aw....esome features</div>}
+          <H2Like style={{align:'center', preTitle:'NEW FEATURES'}}
+            content= {<div>Some awesome features</div>}
           />
           <SingleLineGrid data = {features}
             textStyle= 'normal'
@@ -69,24 +67,25 @@ class App extends Component {
               titleColour : '#5E5D5D',
               textColour :'#9A9A98'
             }}
-
           />
         </section>
 
-        <section style={{paddingLeft: '0'}}>
+
+        <section className="section4">
           <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF8A8A" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
             <div style={{textAlign:'left'}}>
-                <H2Like style={{pinkBefore:'NEW FEATURES', pinkAfter:'....'}}
+              <H2Like style={{preTitle:'NEW FEATURES', postTitle:'....'}}
                 content= {<span>Responsive design, just need your tap</span>}
-                />
-                <p>
+              />
+              <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
               </p>
             </div>
           </div>
         </section>
+
 
         <section className="section5">
           <SingleLineGrid data= {founders}
@@ -98,9 +97,10 @@ class App extends Component {
           <SingleLineGrid data= {logos ({imageWidth :'10.5vw'})} />
         </section>
 
+
         <section className="section6">
           <div style={{padding : '5em'}}>
-            <H2Like style={{align:'center', pinkBefore:'NEW FEATURES'}}
+            <H2Like style={{align:'center', preTitle:'NEW FEATURES'}}
               content= {<span>Some awesome features</span>}
             />
             <p>
@@ -111,9 +111,9 @@ class App extends Component {
         </section>
 
 
-        <section >
+        <section className="section8-dummy-class">>
           <BackgroundTriangle transform=" translate (0.75 0.45) rotate (180 0.5 0.5) " colourPrimary="#FF8A8A" />
-          <div className="flex-container">
+          <div className="footer-flex-container">
             <address className="flex-item-no-inline" style={{textAlign : 'left'}}>
               <img src={startEx} alt="startex logo" style={{width: '8vw'}} className="image-bottom" />
               <br /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio.
@@ -128,8 +128,7 @@ class App extends Component {
         </section>
 
       </div>
-    );
-  }
+  )};
 }
 
 export default App;

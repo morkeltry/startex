@@ -8,7 +8,7 @@ import browserImg from '../images/section6-browser.png';
 class BoxAndButtonEmail extends Component {
   render() {
     return  (<form className="box-and-button-form">
-              <div className="flex-container">
+              <div className="footer-flex-container">
                 <input type="email" className="text-input-narrow round-border" placeholder="EMAIL" />
                 <input type="image" src={buttonIcon} className="submit-image-paper-plane round-border" alt="newsletter subscribe" />
               </div>
