@@ -5,8 +5,8 @@ import './styles/social-widgets.css';
 
 class SocialWidgets extends Component {
   render() {
-    return  ( <div className="social-widgets" >
-      <SingleLineGrid className="social-widgets" data={social} />
+    return  ( <div>
+      <SingleLineGrid data={social ({imageHeight: '15px'}) } class='social-widgets'/>
     </div> )
   }
 }

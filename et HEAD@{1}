@@ -1,0 +1,37 @@
+[33m4712930[m HEAD@{0}: reset: moving to HEAD~1
+[33m8654100[m HEAD@{1}: reset: moving to HEAD~1
+[33mec8b25c[m HEAD@{2}: commit: made section 3 responsive
+[33m8654100[m HEAD@{3}: commit: BackgroundTriangle takes colours for two triangles or defaults to #FF6D6D and second triangle not redered
+[33m4712930[m HEAD@{4}: commit: converted logos.js and social.js to functions, taking imageWidth, imageHeight as params
+[33m880625b[m HEAD@{5}: commit: allowed H2Like and SingleLineGrid to receive specified style elements, or else not complain
+[33me5997ae[m HEAD@{6}: commit: spaced section foregrounds 2,3,4
+[33m1bde235[m HEAD@{7}: commit: H2Like comp uses passed-down style align
+[33md0e904c[m HEAD@{8}: commit: styled section 1
+[33m43254b8[m HEAD@{9}: checkout: moving from master to text-styling
+[33m43254b8[m HEAD@{10}: pull origin master: Fast-forward
+[33m2b853a3[m HEAD@{11}: checkout: moving from outline to master
+[33me28529b[m HEAD@{12}: commit: added address text
+[33m4e1cff8[m HEAD@{13}: commit: outline section 8 (footer finished) - displays text as address, 2x navbars, box-and-button email submit and social widgets
+[33mbe25a76[m HEAD@{14}: commit: gave display=flex to footer
+[33me0a710b[m HEAD@{15}: commit: NavVertical.js displays navbars
+[33mdf395be[m HEAD@{16}: commit: added outline section 8(footer); non-functional NavVertical.js, SignupNewsletter.js
+[33m7796410[m HEAD@{17}: commit: removed RowItem.js
+[33m517fe45[m HEAD@{18}: commit: fixed merge conflict
+[33m499f49e[m HEAD@{19}: checkout: moving from merge-SingleLineGrid-and-RowItem to outline
+[33m499f49e[m HEAD@{20}: checkout: moving from outline to merge-SingleLineGrid-and-RowItem
+[33m499f49e[m HEAD@{21}: merge merge-SingleLineGrid-and-RowItem: Fast-forward
+[33m0b48b64[m HEAD@{22}: checkout: moving from merge-SingleLineGrid-and-RowItem to outline
+[33m499f49e[m HEAD@{23}: commit: merged RowItem into SingleLineGrid; factored out logos to logos.js and formatted as prop for SingleLineGrid
+[33m0b48b64[m HEAD@{24}: checkout: moving from outline to merge-SingleLineGrid-and-RowItem
+[33m0b48b64[m HEAD@{25}: commit: added 'features'
+[33m9da75a9[m HEAD@{26}: commit: made Founder.js generic for rows in sections 3 and 5, renamed to RowItem,
+[33m3459743[m HEAD@{27}: commit: added Founder comp, founders.js data
+[33m0dbf5b3[m HEAD@{28}: commit: added section5 pics, commented out imageMapper
+[33m0ff8a1b[m HEAD@{29}: commit: added custom components H2Like, SingleLineGrid, returning content which is passed to them
+[33ma6fe841[m HEAD@{30}: commit: outlined sections 1,2,3,5,6
+[33m2b853a3[m HEAD@{31}: checkout: moving from master to outline
+[33m2b853a3[m HEAD@{32}: commit: added sections for section 1,2,3,5,6
+[33m4394533[m HEAD@{33}: commit: added images folder
+[33m35a9992[m HEAD@{34}: commit: removed extraneous cra bits
+[33mb22111d[m HEAD@{35}: commit: Added create-react-app
+[33m7783821[m HEAD@{36}: clone: from https://github.com/morkeltry/startex.git

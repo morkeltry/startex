@@ -1,0 +1,31 @@
+.single-line-grid {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  flex-direction:row;
+  padding : 4vw;
+  margin : 0;
+
+}
+
+.single-item {
+  padding : 1.5vw;
+  margin : 0;
+}
+
+.item-title {
+  font-size : 2vw;
+  color : white;
+  margin : 0;
+}
+
+.item-subtitle {
+  font-size : 1.6vw;
+  color : #282828;
+  padding : 0.5vw;
+  margin : 0;
+}
+
+.item-text {
+  font-size : 1.4vw;
+  color :  #282828;
+}

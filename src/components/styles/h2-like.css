@@ -1,0 +1,19 @@
+.red {
+  color : red;
+}
+
+.h2-like-pinks {
+  color : #FF6D6D;
+}
+
+.h2-like-main-color {
+  color : black;
+}
+
+.h2-like-small {
+  font-size : 1.5vh;
+}
+
+.h2-like-big {
+  font-size : 4vh;
+}

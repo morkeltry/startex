@@ -1,33 +1,50 @@
-nav {
+/* nav {
   display : inline;
   width: 25%;
   color : pink;
   border : 1px solid black;
-}
+} */
 
 .flex-container {
   display: inline-flex;
   flex-flow: row nowrap;
   flex-direction:row;
-  color : green;
+  color : #9C9C9C;
 }
 
 .flex-item-no-inline {
   justify-content : space-around;
+  max-width : 20vw;
+
+}
+
+.nav-title {
+  font-size : 1.8vh;
+  font-weight : 600;
+  color : #616161;
+  padding-top : 1vh;
+  padding-bottom : 1vh;
+  margin : 0;
 
 }
 
  ul {
   display : block;
-  border : 1px solid blue;
-  width : 20vh;
+  text-align : left;
+  font-weight : 600;
+  padding : 0 3vw;
+  margin : 0;
+  width : 10vh;
 }
 
  li {
   display : block;
+  padding : 0.5vh;
 }
 
  a {
   display : block;
-  color : red
+  font-size : 1.25vh;
+  color : #9C9C9C;
+  text-decoration: none;
 }

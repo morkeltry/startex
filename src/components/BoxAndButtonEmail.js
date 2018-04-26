@@ -8,10 +8,12 @@ import browserImg from '../images/section6-browser.png';
 class BoxAndButtonEmail extends Component {
   render() {
     return  (<form className="box-and-button-form">
-            <input type="email" className="text-input-narrow" placeholder="EMAIL" />
-          <input type="image" src={buttonIcon} className="submit-image-paper-plane" alt="Submit Form" />
-          <SocialWidgets />
-        </form>
+              <div className="flex-container">
+              <input type="email" className="text-input-narrow round-border" placeholder="EMAIL" />
+              <input type="image" src={buttonIcon} className="submit-image-paper-plane round-border" alt="newsletter subscribe" />
+              </div>
+              <SocialWidgets />
+            </form>
     )
   }
 }
