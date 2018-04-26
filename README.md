@@ -12,3 +12,5 @@ Components such as SingleLineGrid, however, would ideally be more extensible so 
 
 Due to working faithfully to an original design, accessibility was very much 'as is', though contrast and clarity are good in that design. I could have made some better use of semantic HTML5, but ran across problems using `<nav>` and `<address>` which I did not have time to fully resolve.
 
+The original has a seventh section, above the footer containing the address and navbar.
+That section is a simple blue banner containing an inline form, but I didn;t have time to complete that part :(
