@@ -29,7 +29,7 @@ class App extends Component {
         <section className="section1">
           <div style={{}}>
             <h1>
-              There is no other platform for you as like
+              There is no other platform for you like this
             </h1>
             <img />
             <form>
@@ -45,7 +45,7 @@ class App extends Component {
           <div style={{display : 'flex', width: '65%'}}>
             <div style={{textAlign:'left'}}>
               <H2Like style={{preTitle:'NEW DESIGN', postTitle:'....'}}
-                content= {<span>There is no other platforms for you as like</span>}
+                content= {<span>There is no other platforms for you  like this</span>}
               />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta.
@@ -75,9 +75,9 @@ class App extends Component {
           <BackgroundTriangle transform="scale (1 1) translate(-0.5 0) " colourPrimary="#FF8A8A" />
           <div style={{display : 'flex'}}>
             <img src={macbook} alt="macbook" style={{width: '80%'}} className="image-non-aligned" />
-            <div style={{textAlign:'left'}}>
+            <div style={{textAlign:'left', width: '20%'}}>
               <H2Like style={{preTitle:'NEW FEATURES', postTitle:'....'}}
-                content= {<span>Responsive design, just need your tap</span>}
+                content= {<span>Responsive design, just needs your tap</span>}
               />
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
